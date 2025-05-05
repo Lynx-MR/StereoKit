@@ -139,7 +139,7 @@ typedef struct ui_settings_t {
 	float rounding;
 	float backplate_depth;
 	float backplate_border;
-	float hseparator_scale;
+	float separator_scale;
 } ui_settings_t;
 
 SK_API void     ui_quadrant_size_verts  (vert_t *ref_vertices, int32_t vertex_count, float overflow_percent);
